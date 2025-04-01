@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
           
           <div className="flex justify-center space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/noamshalev4"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
               <Github className="h-8 w-8" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/noam-shalev-701b75335/?trk=opento_sprofile_topcard"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
               <Linkedin className="h-8 w-8" />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:noamsbest@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400"
             >
               <Mail className="h-8 w-8" />
