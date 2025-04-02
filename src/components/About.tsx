@@ -4,7 +4,8 @@ import { motion } from 'framer-motion';
 import { Code2, Globe2, Server } from 'lucide-react';
 
 const About: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isHebrew = i18n.language === 'he';
 
   return (
     <section id="about" className="py-20 bg-white dark:bg-gray-900">
@@ -14,13 +15,20 @@ const About: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="text-center mb-12"
+          dir={isHebrew ? 'rtl' : 'ltr'}
         >
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
             {t('about.title')}
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            {t('about.description')}
-          </p>
+          <p 
+            className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto"
+            style={{ 
+              direction: isHebrew ? 'rtl' : 'ltr',
+              textAlign: isHebrew ? 'right' : 'center',
+              unicodeBidi: 'embed'
+            }}
+            dangerouslySetInnerHTML={{ __html: t('about.description') }}
+          />
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -34,10 +42,10 @@ const About: React.FC = () => {
               <Code2 className="h-12 w-12 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">
-              Frontend Development
+              {t('about.frontend.title')}
             </h3>
             <p className="text-gray-600 dark:text-gray-400 text-center">
-              Creating responsive and interactive user interfaces with modern frameworks and tools.
+              {t('about.frontend.description')}
             </p>
           </motion.div>
 
@@ -51,10 +59,10 @@ const About: React.FC = () => {
               <Server className="h-12 w-12 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">
-              Backend Development
+              {t('about.backend.title')}
             </h3>
             <p className="text-gray-600 dark:text-gray-400 text-center">
-              Building scalable server-side applications and RESTful APIs.
+              {t('about.backend.description')}
             </p>
           </motion.div>
 
@@ -68,10 +76,10 @@ const About: React.FC = () => {
               <Globe2 className="h-12 w-12 text-blue-600" />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-2 text-center">
-              Web Performance
+              {t('about.performance.title')}
             </h3>
             <p className="text-gray-600 dark:text-gray-400 text-center">
-              Optimizing web applications for speed, accessibility, and user experience.
+              {t('about.performance.description')}
             </p>
           </motion.div>
         </div>
