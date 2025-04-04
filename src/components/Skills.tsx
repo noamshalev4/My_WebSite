@@ -7,9 +7,19 @@ const skills: Skill[] = [
   { name: 'React', icon: '⚛️', level: 90 },
   { name: 'TypeScript', icon: '📘', level: 85 },
   { name: 'Node.js', icon: '🟢', level: 80 },
-  { name: 'Python', icon: '🐍', level: 75 },
+  { name: 'Spring', icon: '🌱', level: 90 },
   { name: 'Docker', icon: '🐳', level: 70 },
-  { name: 'AWS', icon: '☁️', level: 65 },
+  { name: 'Java', icon: '☕', level: 90 },
+  { name: 'SQL (MySQL)', icon: '🗃️', level: 85 },
+  { name: 'JPA / Hibernate', icon: '📦', level: 80 },
+  { name: 'HTML', icon: '📄', level: 85 },
+  { name: 'CSS', icon: '🎨', level: 80 },
+  { name: 'JavaScript', icon: '💻', level: 80 },
+  { name: 'Microservices', icon: '🔗', level: 75 },
+  { name: 'Git', icon: '🔧', level: 85 },
+  { name: 'React Native', icon: '📱', level: 70 },
+  { name: 'Spring Boot', icon: '🛠️', level: 85 },
+  { name: 'API Design', icon: '🔌', level: 85 },
 ];
 
 const Skills: React.FC = () => {

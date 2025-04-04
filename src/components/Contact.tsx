@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Name
+                {t('contact.name')}
               </label>
               <input
                 type="text"

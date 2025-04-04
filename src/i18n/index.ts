@@ -1,15 +1,15 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
+import i18n from 'i18next';
+import { initReactI18next } from 'react-i18next';
 
 const resources = {
   en: {
     translation: {
       nav: {
-        home: "Home",
-        about: "About",
-        projects: "Projects",
-        skills: "Skills",
-        contact: "Contact",
+        home: 'Home',
+        about: 'About',
+        projects: 'Projects',
+        skills: 'Skills',
+        contact: 'Contact',
       },
       hero: {
         greeting: "Hi, I'm",
@@ -19,22 +19,22 @@ const resources = {
       },
       about: {
         title: 'About Me',
-        description: 'Passionate developer with experience in building modern web applications.',
+        description: 'I am a junior Full Stack Developer specializing in Java, Spring Boot, React, and SQL. Following a career as a sous-chef, I bring adaptability, leadership skills, and a strong problem-solving mindset into the world of software development. In 2024, I completed an intensive 760-hour Full Stack course at John Bryce College with an average grade of 90, gaining hands-on experience in both frontend and backend development. Today, I focus on building high-quality, user-friendly web applications, with an emphasis on clean code, intuitive design, and AI-driven solutions',
         frontend: {
           title: 'Frontend Development',
-          description: 'Creating responsive and interactive user interfaces with modern frameworks and tools.'
+          description: 'Creating responsive and interactive user interfaces with modern frameworks and tools'
         },
         backend: {
           title: 'Backend Development',
-          description: 'Building scalable server-side applications and RESTful APIs.'
+          description: 'Building scalable server-side applications and RESTful APIs'
         },
         performance: {
           title: 'Web Performance',
-          description: 'Optimizing web applications for speed, accessibility, and user experience.'
+          description: 'Optimizing web applications for speed, accessibility, and user experience'
         }
       },
       projects: {
-        title: "My Projects",
+        title: "My Top Projects",
         viewProject: "View Project",
         viewGithub: "View Code",
       },
@@ -43,12 +43,14 @@ const resources = {
       },
       contact: {
         title: "Get in Touch",
+        name: "Name",
         email: "Email",
         message: "Message",
         send: "Send Message",
       },
       footer: {
         name: "Noam Shalev",
+        rights: "All rights reserved."
       },
     },
   },
@@ -65,7 +67,7 @@ const resources = {
         greeting: 'היי, אני',
         name: 'נועם שלו',
         role: 'מפתח פול סטאק',
-        description: 'אני בונה חוויות דיגיטליות יוצאות דופן כמפתח Full Stack עם מומחיות ב-Java, Spring, React ו-TypeScript. אני מתמחה בבניית אפליקציות סקלאביליות וממוקדות משתמש, עם דגש על פונקציונליות צד-שרת ועיצוב צד-לקוח. אני מספק פתרונות איכותיים המותאמים לצרכים של הלקוח, תוך שמירה על ביצועים, רספונסיביות ויכולת תחזוקה בכל פרויקט.',
+        description: "אני בונה חוויות דיגיטליות יוצאות דופן כמפתח פול סטאק עם התמחות ב־ג'אווה, ספרינג, ריאקט ו־טייפסקריפט. אני מתמחה בבניית אפליקציות ניתנות להרחבה וממוקדות משתמש, עם דגש על פונקציונליות בצד השרת ועיצוב בצד הלקוח. אני מספק פתרונות איכותיים המותאמים לצרכים של הלקוח, תוך שמירה על ביצועים, תגובתיות ויכולת תחזוקה בכל פרויקט.",
       },
       about: {
         title: 'אודותיי',
@@ -76,15 +78,15 @@ const resources = {
         },
         backend: {
           title: 'פיתוח צד שרת',
-          description: 'בניית אפליקציות צד שרת סקלאביליות ו-APIs'
+          description: 'בניית יישומי צד שרת בעלי יכולת התרחבות, תכנון ויישום ממשקי תקשורת יעילים, וניהול תקשורת מאובטחת עם מסדי נתונים'
         },
         performance: {
           title: 'ביצועי רשת',
-          description: ''
+          description: 'אופטימיזציה של זמני טעינה, שיפור ביצועי צד לקוח ושרת, ושימוש בטכניקות מתקדמות להאצת תגובתיות המערכת וחוויית המשתמש'
         }
       },
       projects: {
-        title: "הפרויקטים שלי",
+        title: "הפרויקטים המובחרים שלי",
         viewProject: "צפה בפרויקט",
         viewGithub: "צפה בקוד",
       },
@@ -93,12 +95,14 @@ const resources = {
       },
       contact: {
         title: "צור קשר",
+        name: "שם",
         email: "אימייל",
         message: "הודעה",
         send: "שלח הודעה",
       },
       footer: {
         name: "נועם שלו",
+        rights: "כל הזכויות שמורות."
       },
     },
   },
