@@ -1,6 +1,6 @@
 # 🌟 My Portfolio Website
 
-A modern, responsive portfolio website showcasing my skills, projects, and expertise as a Full Stack Developer. Built with cutting-edge technologies to deliver a seamless user experience.
+Welcome to my portfolio website! This is a modern, responsive, and feature-rich platform showcasing my skills, projects, and expertise as a Full Stack Developer. Built with cutting-edge technologies, it delivers a seamless user experience and highlights my professional journey.
 
 ---
 
@@ -40,18 +40,21 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 ### Home Page
 ![Home Page](public/images/Home_Page.png)
 
+### Recipe Project
+![Recipe Project](public/images/recipe_project_cover.jpg)
+
 ---
 
 ## ✨ Features
 
-- User authentication & registration
-- Browse, search, and filter recipes
-- Add, edit, and delete recipes
-- Responsive design for mobile & desktop
-- Internationalization (i18n) support
-- Smooth animations and transitions
-- RESTful API integration
-- Rate limiting for backend endpoints
+- **User Authentication**: Secure login and registration.
+- **Recipe Management**: Add, edit, delete, and browse recipes.
+- **Responsive Design**: Optimized for mobile and desktop.
+- **Internationalization**: Multi-language support with i18next.
+- **Animations**: Smooth transitions using Framer Motion.
+- **RESTful API Integration**: Seamless communication with the backend.
+- **Rate Limiting**: Backend protection with Bucket4j.
+- **Modern UI**: Built with Bootstrap and custom CSS.
 
 ---
 
