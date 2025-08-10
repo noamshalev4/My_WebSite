@@ -120,7 +120,7 @@ This project is licensed under the MIT License.
 ## 🙋‍♂️ Author
 
 **Noam Shalev**  
-[GitHub](https://github.com/noamshalev4) | [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub](https://github.com/noamshalev4) | [LinkedIn](https://www.linkedin.com/in/noam-shalev-701b75335/)
 
 ---
 ````
