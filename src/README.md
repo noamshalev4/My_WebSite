@@ -1,3 +1,4 @@
+````markdown
 # 🌟 My Portfolio Website
 
 Welcome to my portfolio website! This is a modern, responsive, and feature-rich platform showcasing my skills, projects, and expertise as a Full Stack Developer. Built with cutting-edge technologies, it delivers a seamless user experience and highlights my professional journey.
@@ -122,3 +123,4 @@ This project is licensed under the MIT License.
 [GitHub](https://github.com/noamshalev4) | [LinkedIn](https://linkedin.com/in/yourprofile)
 
 ---
+````
