@@ -3,23 +3,38 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import type { Skill } from '../types';
 
-const skills: Skill[] = [
-  { name: 'React', icon: '⚛️', level: 90 },
-  { name: 'TypeScript', icon: '📘', level: 85 },
-  { name: 'Node.js', icon: '🟢', level: 80 },
-  { name: 'Spring', icon: '🌱', level: 90 },
-  { name: 'Docker', icon: '🐳', level: 70 },
-  { name: 'Java', icon: '☕', level: 90 },
-  { name: 'SQL (MySQL)', icon: '🗃️', level: 85 },
-  { name: 'JPA / Hibernate', icon: '📦', level: 80 },
-  { name: 'HTML', icon: '📄', level: 85 },
-  { name: 'CSS', icon: '🎨', level: 80 },
-  { name: 'JavaScript', icon: '💻', level: 80 },
-  { name: 'Microservices', icon: '🔗', level: 75 },
+const skills = [
+  // Frontend
+  { name: 'React 19', icon: '⚛️', level: 95 },
+  { name: 'TypeScript', icon: '📘', level: 90 },
+  { name: 'Bootstrap 5', icon: '🅱️', level: 85 },
+  { name: 'Custom CSS', icon: '🎨', level: 85 },
+  { name: 'React Context API', icon: '🔄', level: 85 },
+  { name: 'React Router DOM 7', icon: '🛣️', level: 80 },
+  { name: 'i18next', icon: '🌐', level: 80 },
+  { name: 'Framer Motion', icon: '🎞️', level: 80 },
+  { name: 'React Icons', icon: '🎨', level: 80 },
+  { name: 'Lucide React', icon: '🖼️', level: 80 },
+  { name: 'Axios', icon: '🔗', level: 85 },
+  { name: 'Vite', icon: '⚡', level: 85 },
+  // Backend
+  { name: 'Spring Boot 3', icon: '🛠️', level: 90 },
+  { name: 'Java 21', icon: '☕', level: 90 },
+  { name: 'Spring Web MVC', icon: '🌱', level: 85 },
+  { name: 'Spring Boot Validation', icon: '✅', level: 80 },
+  { name: 'Bucket4j', icon: '⏳', level: 75 },
+  { name: 'WebClient', icon: '🌍', level: 80 },
+  { name: 'Maven', icon: '🏗️', level: 85 },
+  { name: 'Lombok', icon: '✨', level: 80 },
+  // DevOps & Other
   { name: 'Git', icon: '🔧', level: 85 },
-  { name: 'React Native', icon: '📱', level: 70 },
-  { name: 'Spring Boot', icon: '🛠️', level: 85 },
-  { name: 'API Design', icon: '🔌', level: 85 },
+  { name: 'CI/CD', icon: '🚀', level: 80 },
+  { name: 'Docker', icon: '🐳', level: 80 },
+  { name: 'Linux', icon: '🐧', level: 75 },
+  { name: 'Internationalization', icon: '🌐', level: 80 },
+  { name: 'Responsive Design', icon: '📱', level: 85 },
+  { name: 'Animations', icon: '🎬', level: 80 },
+  { name: 'REST API', icon: '🔌', level: 85 },
 ];
 
 const Skills: React.FC = () => {
