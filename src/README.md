@@ -1,7 +1,6 @@
-# 🍲 Recipe Project
+# 🌟 My Portfolio Website
 
-A modern full-stack web application for discovering, sharing, and managing recipes.  
-Built with **React 19 + TypeScript + Bootstrap** on the frontend and **Spring Boot 3 + Java 21** on the backend.
+A modern, responsive portfolio website showcasing my skills, projects, and expertise as a Full Stack Developer. Built with cutting-edge technologies to deliver a seamless user experience.
 
 ---
 
@@ -39,7 +38,7 @@ Built with **React 19 + TypeScript + Bootstrap** on the frontend and **Spring Bo
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](frontend/src/assets/Home_Page.png)
+![Home Page](public/images/Home_Page.png)
 
 ---
 
@@ -89,11 +88,11 @@ Built with **React 19 + TypeScript + Bootstrap** on the frontend and **Spring Bo
 ## 🗂️ Project Structure
 
 ```
-Recipe_Project/
+My_WebSite/
 ├── backend/      # Spring Boot backend
 ├── frontend/     # React frontend
-├── .idea/        # JetBrains IDE config
-├── .vscode/      # VSCode config
+├── public/       # Static assets (images, etc.)
+├── src/          # Source code
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -117,6 +116,6 @@ This project is licensed under the MIT License.
 ## 🙋‍♂️ Author
 
 **Noam Shalev**  
-[GitHub](https://github.com/noamshalev4) | [LinkedIn](https://www.linkedin.com/in/noam-shalev-701b75335/)
+[GitHub](https://github.com/noamshalev4) | [LinkedIn](https://linkedin.com/in/yourprofile)
 
 ---
