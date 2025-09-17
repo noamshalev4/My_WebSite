@@ -105,7 +105,7 @@ const projects: Project[] = [
     title: 'Recipe Project',
     description:
       'Recipe Project is a full-stack web application for discovering, sharing, and managing recipes. It features a modern React frontend and a robust backend, allowing users to browse, search, and contribute recipes. The project demonstrates advanced skills in React, Node.js, and database management, and includes user authentication, responsive design, and a rich user experience.',
-    image: 'public\\Images\\home_page.png', // Place image in public/assets
+    image: './Images/home_page.png', // Place image in public/assets
     technologies: [
       'React 19', 'TypeScript', 'Bootstrap 5', 'Custom CSS', 'React Context API', 'React Router DOM 7', 'i18next', 'Framer Motion', 'React Icons', 'Lucide React', 'Axios', 'Vite',
       'Spring Boot 3', 'Java 21', 'Spring Web MVC', 'Spring Boot Validation', 'Bucket4j', 'WebClient', 'Maven', 'Lombok'
